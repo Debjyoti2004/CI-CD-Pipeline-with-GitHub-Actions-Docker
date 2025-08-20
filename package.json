@@ -1,0 +1,23 @@
+{
+  "name": "ci-cd-pipeline-with-github-actions-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Debjyoti2004/CI-CD-Pipeline-with-GitHub-Actions-Docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Debjyoti2004/CI-CD-Pipeline-with-GitHub-Actions-Docker/issues"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
