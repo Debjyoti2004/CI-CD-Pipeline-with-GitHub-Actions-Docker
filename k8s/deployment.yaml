@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: http-server
+  namespace: cicd
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: http-server
+  template:
+    metadata:
+      labels:
+        app: http-server
+    spec:
+      containers:
+        - name: http-server
+          image: debjyoti08/cicd-ci-cd-pipeline:d4ff93c53b490e788aff4410c82600d76e1b5f48
+          ports:
+            - containerPort: 3000
