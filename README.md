@@ -123,3 +123,7 @@ kubectl port-forward svc/http-server 30001:80 -n cicd
 Access the application at the URL *http://localhost:30001*.
 
  ![Kubernetes Port Forward](public/deploy-minikube-app.png)
+
+
+## Project 2 : `https://github.com/Debjyoti2004/Scalable-Static-Website-with-S3-Cloudflare-GitHub-Actions`
+
